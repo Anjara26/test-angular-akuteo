@@ -1,0 +1,25 @@
+:host {
+	display: flex;
+	flex-direction: row;
+}
+
+.generator {
+	max-width: 300px;
+	padding: 5px;
+}
+
+.list {
+	width: 100%;
+	table {
+		width: 100%;
+		min-height: 300px;
+	}
+}
+
+.mat-paginator {
+	margin-top: 10px;
+}
+
+.mat-header-cell {
+    background: #ffd740;
+}

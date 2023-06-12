@@ -1,0 +1,54 @@
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 300px;
+
+	div, mat-form-field {
+		flex: 1;
+		align-items: center;
+
+		display: flex;
+		justify-content: center;
+	}
+
+	.title {
+		flex-direction: column;
+		color: #1a1e20;
+
+		div {
+			text-align: center;
+			font-style: italic;
+			font-size: 0.7em;
+		}
+	}
+
+	mat-error {
+		text-align: center;
+		font-style: italic;
+		font-size: 0.7em;
+	}
+
+	.count {
+		flex: 1;
+	}
+
+	.gender {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		.checkbox {
+			margin-left: 45px;
+		}
+
+		mat-checkbox {
+			width: 150px;
+		}
+	}
+
+	.mat-input-element {
+		font-size: 1em;
+		caret-color: #ffd740;
+	}
+}
